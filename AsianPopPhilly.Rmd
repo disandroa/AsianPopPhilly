@@ -1,0 +1,44 @@
+---
+title: "Changes in Asian Residential Patterns"
+author: "Akira Di Sandro"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true # add table of contents
+    theme: simplex
+    # number_sections: true
+    toc_float: true
+    # toc_depth: 2 # set depth for table of contents
+    code_folding: hide
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# load packages
+library(tidyverse)
+library(tidycensus)
+library(sf)
+
+# API key
+census_api_key("f2855a6037284cb9cbed55e96e6b99be17ee05c6", overwrite = TRUE, install = T)
+
+```
+
+# Introduction
+
+  Philadelphia, one of the oldest cities in the US, has seen many changes to its ethnic make-up, from the Lenape people, to the European colonizers and other colonial subjects that were forcibly brought to the land, to the current waves of immigration from all over the world. As of 2022, immigrants make up 15.7% of Philadelphia's population, measuring at about 246,600 people [@pewImmigrantGrowth]. This follows the trend of the rising share of immigrants in Philadelphia seen from the 1990s.
+  
+  [breakdown of who is migrating to Philadelphia]
+
+# Asian Immigration
+
+[brief summary of Asian Immigration to Philly]
+
+# 
+  
+  
+  
+# References
+
