@@ -31,14 +31,66 @@ census_api_key("f2855a6037284cb9cbed55e96e6b99be17ee05c6", overwrite = TRUE, ins
   Philadelphia, one of the oldest cities in the US, has seen many changes to its ethnic make-up, from the Lenape people, to the European colonizers and other colonial subjects that were forcibly brought to the land, to the current waves of immigration from all over the world. As of 2022, immigrants make up 15.7% of Philadelphia's population, measuring at about 246,600 people [@pewImmigrantGrowth]. This follows the trend of the rising share of immigrants in Philadelphia seen from the 1990s.
   
   [breakdown of who is migrating to Philadelphia]
+  
+  [how has the racial make-up of Philadelphia changed from 2012-2022]
+  
+```{r racial make-up}
+# bar graph of racial make up of Philly, 2012-2022
 
+
+```
+
+  
 # Asian Immigration
 
 [brief summary of Asian Immigration to Philly]
 
-# 
+```{r asian make-up}
+# breakdown of Asian residents of Philly, 2012-2022
+# bar graph of what kind of Asians are in Philly
+
+
+# highlight top 3 countries of 2012 and 2022
+
+```
+
+[changes in Asian population in Philly from 2012-2022]
+
+
+# Changes in the last decade
   
+  [describe factors that have driven change]
   
+```{r regional asians philly}
+# changes in asian residential patterns, 2012-2022
+# (grouped by regions of Asia)
+
+
+```
+
+## Country 1
+[talk about the country that saw the biggest increase in population in Philly]
+
+```{r percent change country 1}
+# map of philly, showing percent change in people from country #1
+
+
+```
+
+[describe what may have led to this]
+
+
+## Country 2
+[talk about another country with interesting insight]
+
+```{r percent change country 2}
+# map of philly, showing percent change in people from country #2
+
+
+```
+
+[possible explanations for what's going on]
+
   
 # References
 
